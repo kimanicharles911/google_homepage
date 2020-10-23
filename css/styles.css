@@ -2,13 +2,13 @@
   font-size: 15px;
 }
 html{
-  height: 100vh;
+  height: 100%;
 }
 body{
   margin: 0;
   display: flex;
   flex-direction: column;
-  
+  height: 100%;
 }
 #mynav{
   display: flex;
@@ -30,7 +30,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 #google_trademark{
   text-align: center ;
